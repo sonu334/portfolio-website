@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <nav id="navbar">
+        <h2 id="portfolioheading">My Portfolio</h2>
+        <div id="portimg">
+            <img src="images/photo.jpg" alt="photo" width="40px" height="40px"id="portfolio_img" style="border-radius:50%;">
+        </div>
+        <div id="menu">
+            <ul>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="#about">About</a></li>
+                <li class="menu"><a href="#services">Services</a></li>
+                <li class="menu"><a href="#projects">Projects</a></li>
+                <li class="menu"><a href="#contactrow">Contact</a></li>
+            </ul>
+        </div> 
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div id="container">
+        <div id="header">
+            <p id="developer">Web developer/Web designer</p>
+            <h1 id="decrption"> Hi, I'm <font color="red"> Sonu kumar</font><br> from India </h1>
+        </div>
+    </div>
+<!-- about section-->
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <img src="images/photo2.png" id="about_photo">
+            </div>
+            <div class="col-2">
+                <h1 id="abt_heading">About me</h1>
+                <p id="abt_description">I'm sonu kumar.I'm from patna.I am 20 years old.I am a college student. Currently I'm pursuing BCA (Bachelor of Computer Application) from Cimage Catalyst college.I am a code ethusiast and am on the way of full stack web developer.I want to be a web developer and so working on brushing up the skills in order to be a perfect web developer.To know more about me click on the tabs below:- &#11015;</p>
+                <div class="abt_tabs">
+                    <ul>
+                        <li id="tab1">Skills</li>
+                        <li id="tab2">Experience</li>
+                        <li id="tab3">Education</li>
+                    </ul>
+                </div>
+                <div id="Knowmore">
+                    <h1 class="animate__animated animate__shakeX animate__infinite">&nbsp;&nbsp;Click the above tabs <br>to Know more about me</h1><img src="images/handspointingup-removebg-preview.png" alt="hand" width="130px" height="80px">
+                </div>
+                <div id="skills">
+                    <ul>
+                        <li>UI/UX designing</li>
+                        <li>Website development</li>
+                        <li>Data Entry</li>
+                        <li>Computer operator</li>
+                        <li>MS Office suite</li>
+                        <li>Presentation making</li>
+                        <li>Communication</li>
+                        <li>Typing</li>
+                    </ul>
+                </div>
+                <div id="experience">
+                    <h1 id="fresher">I am a fresher.</h1>
+                </div>
+                <div id="education">
+                    <ol>
+                        <li style="font-size:22px;color:yellow;font-family:verdana;">Matriculation
+                            <ul type="disc">
+                                <li style="font-size:18px;color:white">From Ashiana Residencial Moral School,Patna in 2021.</li>
+                            </ul>
+                        </li>
+                        <li style="font-size:22px;color:yellow;font-family:verdana;">Inter
+                            <ul>
+                                <li style="font-size:18px;color:white">From May Flower School,Digha in 2023.</li>
+                            </ul>
+                        </li>
+                        <li style="font-size:22px;color:yellow;font-family:verdana;">Currently
+                            <ul>
+                                <li style="font-size:18px;color:white">pursuing BCA (Bachelor Of Computer Education) from Cimage Catalyst College,Patna</li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!-- about part ends here -->
+  <!-- services part coding starts -->
+   <div id="services">
+    <h1 id="service_heading">My Services</h1>
+    <div id="service_container">
+        <div class="items">
+            <i class="fa-solid fa-code"></i>
+            <h2 class="worktype">Web design</h2>
+            <p class="worktypedecrption">I can design a desired website as per the client requirements.
+                The websites designed by me are user-friendly,pleasing and responsive.
+                I strive to build engaging and functional websites that offer a seamless user experience.
+            </p>
+
+        </div>
+        <div class="items"> 
+            <i class="fa-solid fa-computer"></i>
+            <h2 class="worktype">Data Entry</h2> <p class="worktypedecrption">"I have experience in data entry, where I have developed strong skills in accurately inputting and managing data. If you need assistance with data entry tasks, I would be happy to help!</p>
+        </div>
+        <div class="items">
+            <i class="fa-regular fa-file-powerpoint"></i>
+            <h2 class="worktype">Presentation making</h2>
+            <p class="worktypedecrption">I have a good Presentation making skills. I have mader n number of presentations so far that too on different topics in my college and have delivered them very confidiently and boldy.To see the demo kindly visit my linkden profile in the contact section.</p>
+        </div>
+        <div class="items">
+            <i class="fa-solid fa-person-chalkboard"></i>
+            <h2 class="worktype">Teaching</h2>
+            <p class="worktypedecrption">I have a teaching experience of 3 years and I can teach subjects like maths, english, hindi , computer and science upto class 10th. I have the capability to make very complex topic very easy. I can teach both in hindi and English.
+            </p>
+        </div>
+    </div>
+   </div>
+   <!-- My work coding start -->
+   <div id="projects">
+    <div class="project_container">
+        <h1 style="color:aliceblue" id="service_heading">My Projects</h1>
+        <div class="projects_list">
+            <div class="proj">
+                <video muted poster="images/sweetsimage.jpg" width="100%" height="300px" controls="controls" src="videos/calculator.mp4"></video>
+                <p id="cal">Sweetshop website&nbsp;&nbsp;<i class="fa-solid fa-cake-candles"></i></p>
+            </div>
+            <div style="margin-left:2%;" class="proj">
+                <video width="100%" muted poster="images/beautyimage.webp"  height="300px" controls="controls" src="videos/beauty.mp4"></video>
+                <p id="cal">Beautyproduct Website</p>
+            </div>
+            <div style="width:32%;margin-right:0%;margin-left:2%" class="proj">
+                <video muted poster="images/calimage.jpg" width="100%" height="300px" controls="controls" src="videos/calculator.mp4"></video>
+                <p id="cal">Calculator&nbsp;&nbsp;<i class="fa-solid fa-calculator"></i></p>
+            </div>
+            <div class="proj">
+                <video muted poster="images/flowerimage.jpg" width="100%" height="300px" controls="controls" src="videos/calculator.mp4"></video>
+                <p id="cal">Flower shop template</p>
+            </div>
+            <div class="proj" style="margin-left:2%;">
+                <video muted poster="images/texteditiorimage.png" width="100%" height="300px" controls="controls" src="videos/calculator.mp4"></video>
+                <p id="cal">Text Editor&nbsp;&nbsp;<i class="fa-solid fa-code"></i></p>
+            </div>
+            <div class="proj" style="width:32%;margin-right:0%;margin-left:2%">
+                <video muted poster="images/mobileimage.jpg" width="100%" height="300px" controls="controls" src="videos/calculator.mp4"></video>
+                <p id="cal">Mobile advertisement&nbsp;&nbsp;<i class="fa-solid fa-mobile-screen-button"></i></p>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- contact us coding start -->
+    <div id="contactrow">
+        <div id="col_left">
+            <h1 id="contactheading">Contact me</h1>
+            <p><i class="fa-regular fa-envelope"></i>&nbsp;&nbsp;Kumnehasonu@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>&nbsp;&nbsp;8092819213</p>
+            <div id="social_links">
+                <p>Follow me on</p>
+                <a href="https://www.linkedin.com/in/sonu-kumar-a736902a2/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/sonu_srkfan/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.youtube.com/@SonuKumar-xw2qf"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        <a  download href="images/resume.docx.rtf"><button id="btn">Download CV</button></a>
+        </div>
+        <div id="col_right">
+            <form>
+                Name:<br>
+                <input type="text" name="name" placeholder="enter your name"><br><br>
+                Email:<br>
+                <input type="email" name="email" placeholder="enter your email"><br><br>
+                Number:<br>
+                <input type="number" name="mobile_no" placeholder="+917876543123"><br><br>
+                Message:<br>
+                <textarea cols="30" rows="4" name="message" placeholder="drop your message here!"></textarea><br><br>
+                <input type="submit" id="submit_btn" value="submit">
+
+            </form>
+        </div>
+    </div>
+
+    <!-- contact us coding end -->
+     <footer>
+        <center>
+            <h2 id="fdeveloper">Developed by Sonu Kumar&nbsp;&nbsp;<i class="fa-regular fa-copyright"></i></h2>
+        </center>
+     </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

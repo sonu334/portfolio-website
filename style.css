@@ -1,0 +1,385 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:black;
+    color:white;
+}
+/*Nav css start*/
+#navbar{
+    width:100%;
+    height:65px;
+    padding:10px;
+    position:relative;
+}
+#portimg{
+    width:40px;
+    height: 40px;
+    border-radius:50%;
+    transform: translate(145px,-29px);
+}
+#portfolioheading{
+    font-family: century gothic;
+    font-size:23px;
+    margin-top:5px;
+}
+#menu{
+    width:50%;
+    height:65px;
+    position: absolute;
+    top:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    right:0;
+}
+ul{
+    list-style: none;
+}
+.menu{
+    display:inline-block;
+    font-size:17px;
+    margin:10px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color:white;
+   
+}
+a:hover{
+    color:yellow;
+    font-size:20px;
+    transition:1s;
+}
+#container{
+    width:100%;
+    height:550px;
+    background-image:url("images/perphoto.png");
+    background-repeat:no-repeat;
+    background-position:center right;
+}
+#header{
+    position:absolute;
+    top:200px;
+    left:150px;
+    font-size:20px;
+}
+#decrption{
+    font-size:60px;
+    font-family: sans-serif;
+}
+#developer{
+    font-family: verdana;
+    margin-bottom:18px;
+}
+/* about css start*/
+#about{
+    padding:40px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.col-1{
+    flex-basis: 35%;
+}
+.col-2{
+    flex-basis: 60%;
+}
+#about_photo{
+    width:100%;
+    border-radius:15px;
+}
+#abt_heading{
+    font-family: calibri;
+    font-size:65px;
+    color:aqua;
+}
+#abt_description{
+    font-family: sans-serif;
+    text-align: justify;
+    font-size:18px;
+}
+.abt_tabs{
+    width:100%;
+    height:45px;
+    margin-top:10px;
+}
+#tab1,#tab2,#tab3{
+    width:32.88%;
+    height:45px;
+    padding: 0;
+    margin: 0;
+    display:inline-block;
+    text-align:center;
+    padding-top:10px;
+    font-family: sans-serif;
+    font-size:20px;
+    cursor:pointer;
+}
+#skills ul{
+    list-style: square;
+}
+#skills ul li::marker{
+    color:yellow;
+}
+#tab1:hover{
+    background-color: red;
+    transition: 1s;
+}
+#tab2:hover{
+    background-color: red;
+    transition: 1s;
+}
+#tab3:hover{
+    background-color: red;
+    transition: 1s;
+}
+#skills{
+    margin-top:15px;
+    margin-left:15px;
+    font-family: Arial;
+    font-size:20px;
+    line-height: 35px;
+    display:none;
+}
+#experience{
+    display:none;
+}
+#fresher{
+    font-family: sans-serif;
+}
+#education{
+    margin-left:15px;
+    line-height: 35px;
+    display:none;
+}
+#education ol ul{
+    list-style: disc;  
+}
+/* about css end */
+/* services section start */
+#service_container{
+    width:100%;
+    height:380px;
+}
+#service_container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap:20px 20px;
+    padding:10px;
+}
+.items{
+    background-color:#262626;
+    padding:30px;
+    border-radius: 15px;
+}
+.items:hover{
+    background-color:rgb(11, 11, 234);
+    transition:0.2s;
+    transform:translateY(-10px);
+}
+
+#service_heading{
+    font-size: 45px;
+    font-family:verdana;
+    margin:20px;
+    color:navajowhite;
+}
+.worktype{
+    font-family: sans-serif;
+    color:white;
+    margin-bottom:8px;
+}
+i{
+    font-size:20px;
+    margin-bottom:8px;
+}
+.worktypedecrption{
+    font-family: calibri;
+    text-align: justify;
+    font-family: 20px;
+    line-height: 25px;
+    font-weight: bold;
+
+}
+/* services section ends */
+/* My project css start */
+.projects_list{
+    width:100%;
+    height: 820px;
+    padding:3%;
+}
+.proj{
+    border:1px solid white;
+    box-shadow: 0 0 15px yellow;
+    width:30%;
+    height: 350px;
+    border-radius: 18px;
+    float:left;
+    margin-right:2%;
+    margin-bottom:40px;
+}
+#cal{
+    font-family: sans-serif;
+    text-align:center;
+    margin-top:5px;
+    font-size:20px;
+}
+/* My project css end */
+#Knowmore{
+    display: flex;
+    justify-content: center;
+    margin-top:70px;
+}
+#Knowmore h1{
+    font-family: sans-serif;
+    animation:Know 5s infinite;
+}
+@keyframes Know{
+    0%{
+        color:magenta;
+    }
+    25%{
+        color:blue;
+    }
+    50%{
+        color:yellow;
+    }
+    75%{
+        color:white;
+    }
+    100%{
+        color:blueviolet;
+    }
+
+}
+/* contact css start */
+#contactrow{
+    width:100%;
+    display:flex;
+}
+#contactheading{
+    font-family: sans-serif;
+    font-size:50px;
+    color:azure;
+    margin:20px;
+}
+#col_left{
+    flex-basis: 45%;
+}
+#col_left p{
+    font-size:20px;
+    margin-left:40px;
+    margin-top:20px;
+    font-family: century gothic;
+}
+#col_left p i{
+    font-size:25px;
+    color:aqua;
+}
+#social_links{
+    margin-left:32px;
+    margin-top:25px;
+}
+#social_links i{
+    margin:15px;
+    font-size:25px;
+}
+#social_links p{
+    font-weight: bold;
+    padding: 0;
+    margin:0;
+    margin-top:15px;
+}
+#social_links i:hover{
+    transform:translateY(-3px);
+    color:#ff004f;
+    transition:0.5s;
+}
+#col_right{
+    flex-basis: 50%;
+    padding:2%;
+}
+#btn{
+    width:130px;
+    height:45px;
+    font-family: verdana;
+    font-size:17px;
+    border-radius: 10px;
+    margin-left:50px;
+    margin-top:15px;
+    cursor:pointer;
+    color:white;
+    background-color:#ff004f;
+    border:none;
+}
+#btn:hover{
+    width:135px;
+    background-color: greenyellow;
+    color:brown;
+    transition:01s;
+}
+form{
+    font-family: sans-serif;
+}
+form input{
+    width:100%;
+    height:35px;
+    outline:none;
+    color:white;
+    padding:7px;
+    font-size:15px;
+    border-radius:8px;
+    border:none;
+    margin-top:6px;
+    background-color:#262626;
+    
+}
+input::placeholder{
+    color:white;
+}
+form textarea{
+    padding:7px;
+    background-color:#262626;
+    border:none;
+    color:white;
+    outline:none;
+    margin-top:6px;
+}
+#submit_btn{
+    float:right;
+    width:85px;
+    height:35px;
+    font-family: calibri;
+    font-size:18px;
+    padding: 0;
+    background-color:rgb(228, 99, 228);
+    cursor:pointer;
+}
+
+/* contact css end */
+/* footer css start */
+footer{
+    width:100%;
+    height:60px;
+    background-color:#262626;
+    padding:20px;
+    margin-top:20px;
+}
+#fdeveloper{
+    font-family: century gothic;
+    font-weight: normal;
+    font-size:20px;
+}
+/* footer css end */
+.fa-solid{
+    display:none;
+}
+
+
